@@ -1,0 +1,11 @@
+Make sure you have Docker installed on your system.
+
+This script assumes that you have a Dockerfile in the same directory as the script, and it specifies how to build the Docker image. After building the image, it runs a container based on that image, exposing port 5000 of the container to port 5000 of the host system.
+
+To use the script:
+
+Save the script into a file named run.sh.
+Make sure the Dockerfile and Flask app (app.py) are in the same directory.
+Open a terminal or command prompt, navigate to the directory containing run.sh, and run chmod +x run.sh to make the script executable.
+Run the script using ./run.sh.
+After running the script, the Flask app will be containerized and accessible at http://localhost:5000.
